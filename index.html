@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SJ Details - Estética Automotiva Premium</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/2y9tprM5/image.png">
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <img src="https://i.postimg.cc/2y9tprM5/image.png" alt="SJ Details Logo" class="nav-logo">
+            <a href="https://wa.me/5571992968831?text=Ol%C3%A1%2C%20vi%20o%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." class="btn-primary" target="_blank">Agendar</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text" data-aos="fade-up">
+                <span class="badge">Estética Automotiva Premium</span>
+                <h1>Cuidamos do seu <span class="text-accent">Sonho</span></h1>
+                <p>Lavagem técnica, Polimento e Vitrificação com padrão de excelência que seu carro merece. Atendemos em Salvador e Região.</p>
+                <div class="cta-group">
+                    <a href="https://wa.me/5571992968831?text=Quero%20agendar%20uma%20avalia%C3%A7%C3%A3o%20gratuita" class="btn-primary btn-shine" target="_blank">Orçamento via WhatsApp</a>
+                    <div class="service-tag">
+                        <span>🚀 Serviço Leva e Trás Disponível</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- BASTIDORES (VÍDEOS) -->
+    <section class="section bg-secondary">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2 class="section-title">Resultados Reais</h2>
+                <p class="section-subtitle">Confira o brilho e o cuidado em cada detalhe.</p>
+                
+                <!-- Botão Instagram -->
+                <a href="https://instagram.com/sjdetails.estetica" target="_blank" class="btn-instagram">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    Seguir @sjdetails.estetica
+                </a>
+            </div>
+
+            <!-- Video Slider Container -->
+            <div class="video-slider-wrapper" data-aos="fade-up" data-aos-delay="200">
+                <div class="video-slider">
+                    
+                    <!-- Video 1 -->
+                    <div class="video-card">
+                        <div class="video-wrapper">
+                            <div class="custom-play-btn" onclick="playVideo(this, 'video1')">
+                                <div class="play-icon">▶</div>
+                                <span>Assistir</span>
+                            </div>
+                            <!-- Vimeo Iframe (Background Mode for cleanliness) -->
+                            <iframe id="video1" src="https://player.vimeo.com/video/1160527982?badge=0&autopause=0&player_id=0&app_id=58479&background=1" frameborder="0" allow="autoplay; fullscreen" title="SJ Details"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- Video 2 -->
+                    <div class="video-card">
+                        <div class="video-wrapper">
+                            <div class="custom-play-btn" onclick="playVideo(this, 'video2')">
+                                <div class="play-icon">▶</div>
+                                <span>Assistir</span>
+                            </div>
+                            <iframe id="video2" src="https://player.vimeo.com/video/1160528031?badge=0&autopause=0&player_id=0&app_id=58479&background=1" frameborder="0" allow="autoplay; fullscreen" title="SJ Details"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- Video 3 -->
+                    <div class="video-card">
+                        <div class="video-wrapper">
+                            <div class="custom-play-btn" onclick="playVideo(this, 'video3')">
+                                <div class="play-icon">▶</div>
+                                <span>Assistir</span>
+                            </div>
+                            <iframe id="video3" src="https://player.vimeo.com/video/1160528199?badge=0&autopause=0&player_id=0&app_id=58479&background=1" frameborder="0" allow="autoplay; fullscreen" title="SJ Details"></iframe>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Hand Animation for Mobile -->
+                <div class="swipe-indicator">
+                    <span>Arraste para ver mais</span>
+                    <div class="hand-icon">👆</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE A EMPRESA -->
+    <section class="section">
+        <div class="container grid-2">
+            <div class="about-image-wrapper" data-aos="fade-right">
+                <img src="https://i.postimg.cc/5ypSTgHF/1769865222466-019c142f-508e-7869-b1e4-826e217b9764.png" alt="BMW SJ Details" class="about-img">
+                <div class="about-overlay-logo">
+                    <img src="https://i.postimg.cc/2y9tprM5/image.png" alt="Logo">
+                </div>
+            </div>
+            <div class="about-content" data-aos="fade-left">
+                <h2 class="section-title text-left">Especialistas em <span class="text-accent">Detalhes</span></h2>
+                <p>Na <strong>SJ Details</strong>, não apenas lavamos carros; nós restauramos a beleza e protegemos o seu patrimônio. </p>
+                <p>Nossa equipe é certificada e utiliza os melhores produtos do mercado mundial para garantir resultados que impressionam. Seja uma lavagem detalhada ou uma vitrificação completa, seu carro sai daqui renovado.</p>
+                
+                <ul class="check-list">
+                    <li>✅ Atendimento Personalizado</li>
+                    <li>✅ Produtos de Alta Performance</li>
+                    <li>✅ Segurança e Garantia</li>
+                </ul>
+
+                <a href="https://wa.me/5571992968831?text=Quero%20saber%20mais%20sobre%20a%20empresa" class="btn-secondary">Falar com Especialista</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section bg-secondary">
+        <div class="container">
+            <h2 class="section-title center" data-aos="fade-up">Nossos Serviços</h2>
+            <div class="grid-services">
+                
+                <!-- Card -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon">🚿</div>
+                    <h3>Lavagem Técnica</h3>
+                    <p>Opções simples e detalhada. Limpeza profunda que respeita a pintura e remove contaminantes.</p>
+                </div>
+
+                <!-- Card -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="icon">✨</div>
+                    <h3>Polimento</h3>
+                    <p>Técnico e Comercial. Correção de verniz, remoção de riscos e recuperação do brilho intenso.</p>
+                </div>
+
+                <!-- Card -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon">💎</div>
+                    <h3>Vitrificação</h3>
+                    <p>Proteção cerâmica para pintura, vidros, faróis e plásticos. Durabilidade e hidrofobia extrema.</p>
+                </div>
+
+                <!-- Card -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="icon">🛋️</div>
+                    <h3>Interna Premium</h3>
+                    <p>Higienização profunda, limpeza de ar condicionado e hidratação de couro.</p>
+                </div>
+
+                <!-- Card -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon">🔧</div>
+                    <h3>Restauração</h3>
+                    <p>Recuperação de faróis, revitalização de plásticos (internos/externos) e lavagem técnica de motor.</p>
+                </div>
+
+                <!-- Card -->
+                <div class="service-card highlight-card" data-aos="fade-up" data-aos-delay="350">
+                    <div class="icon">🚕</div>
+                    <h3>Leva e Trás</h3>
+                    <p>Comodidade total. Buscamos e entregamos seu veículo. *Consulte disponibilidade.</p>
+                </div>
+
+            </div>
+            
+            <div class="center-cta" style="margin-top: 3rem; text-align: center;">
+                <a href="https://wa.me/5571992968831?text=Gostaria%20da%20tabela%20de%20pre%C3%A7os" class="btn-primary btn-shine">Ver Tabela de Preços</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="https://i.postimg.cc/2y9tprM5/image.png" alt="SJ Details">
+                <p>Cuidamos do seu sonho.</p>
+            </div>
+            <div class="footer-contact">
+                <h4>Contato</h4>
+                <p>📍 Salvador - BA</p>
+                <p>📱 (71) 99296-8831</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/sjdetails.estetica" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 SJ Details. Developed by PS8.</p>
+        </div>
+    </footer>
+
+    <!-- WHATSAPP FLOAT -->
+    <a href="https://wa.me/5571992968831?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20quero%20agendar!" class="whatsapp-float" target="_blank">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="#ffffff"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.592 2.654-.696c1.029.575 1.933.844 2.809.845 3.18 0 5.767-2.587 5.768-5.766.001-3.182-2.585-5.769-5.771-5.769zm9.92 5.768c0 5.484-4.436 9.933-9.924 9.933-1.442 0-2.836-.328-4.148-.946l-4.594 1.205 1.233-4.475c-.705-1.398-1.077-2.91-1.077-4.489 0-5.485 4.437-9.934 9.923-9.934 5.485 0 9.92 4.448 9.92 9.934z"/></svg>
+    </a>
+
+    <!-- SCRIPTS -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+        // Inicializar Animações
+        AOS.init({ duration: 800, once: true });
+
+        // LÓGICA DE VÍDEO INTELIGENTE (PS8 SYSTEM)
+        const players = {};
+        
+        // Registrar os players
+        ['video1', 'video2', 'video3'].forEach(id => {
+            const iframe = document.getElementById(id);
+            const player = new Vimeo.Player(iframe);
+            players[id] = player;
+
+            // Garantir que comece mudo e pausado (segurança)
+            player.setVolume(0); 
+            
+            // Se o usuário clicar no iframe nativo (caso bugue o overlay)
+            player.on('play', function() {
+                handlePlay(id);
+            });
+        });
+
+        function playVideo(btn, videoId) {
+            const currentPlayer = players[videoId];
+            
+            // 1. Pausar todos os outros e resetar botões
+            Object.keys(players).forEach(key => {
+                if (key !== videoId) {
+                    players[key].pause();
+                    players[key].setVolume(0); // Muta os outros
+                    // Mostrar botão dos outros
+                    const wrapper = document.getElementById(key).parentElement;
+                    wrapper.querySelector('.custom-play-btn').style.display = 'flex';
+                    wrapper.querySelector('.custom-play-btn').style.opacity = '1';
+                }
+            });
+
+            // 2. Play no atual
+            currentPlayer.play().then(() => {
+                // Truque: O modo background=1 começa mudo. Desmutamos aqui.
+                currentPlayer.setVolume(1);
+                
+                // 3. Esconder botão customizado
+                btn.style.opacity = '0';
+                setTimeout(() => { btn.style.display = 'none'; }, 300);
+            }).catch(error => {
+                console.error("Erro ao reproduzir:", error);
+            });
+        }
+
+        // Se pausar manualmente (ou clicar no vídeo toggle), mostrar botão de volta
+        Object.keys(players).forEach(key => {
+            players[key].on('pause', function() {
+                const wrapper = document.getElementById(key).parentElement;
+                const btn = wrapper.querySelector('.custom-play-btn');
+                btn.style.display = 'flex';
+                setTimeout(() => { btn.style.opacity = '1'; }, 10);
+            });
+        });
+    </script>
+</body>
+</html>
